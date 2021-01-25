@@ -10,7 +10,7 @@ log_file_path = r"/logs/sfbios.log"
 # Wrap () parenthesis each expression
 # . indicate the start
 # * wildcard
-# ? set to greedy to matche only the first occurance of the pattern
+# ? set to greedy to match only the first occurance of the pattern
 regex = '(<property name="(.*?)">(.*?)<\/property>)'
 
 with open(log_file_path, "r") as logfile:
